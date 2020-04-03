@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Ideias - Casa Criativa</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="icon" href="./assets/images/ideia.ico">
+    <link rel='stylesheet' href='./assets/css/style.css'>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600,700,900&display=swap" rel="stylesheet">
+    
+</head>
+<body id="page-ideas">
+    
+    <div id="container">
+        <header>
+            <a href="index.html">
+                <img src="./assets/images/logo.svg" alt="Logomarca da aplicação">
+            </a>            
+            <nav>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="#" class="button" onclick="onOff()">Nova Ideia</a></li>
+            </nav>
+        </header>
+    
+        <section id="title">
+            <p>em exibição</p>
+            <h1>Ideias</h1>
+        </section>
+        
+        <main>
+            <section id="ideas">
+                <div class="idea">
+                    <img src="./assets/images/computador.svg" alt="Imagem de curso de programação">
+        
+                    <div class="content">
+                        <h3>Cursos de Programação</h3>
+                        <p>Estudo</p>
+                        <div class="description">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Corrupti odio ab alias! Labore blanditiis sunt eum vero dolores voluptate debitis mollitia
+                            architecto tempora officia,
+                            ad aspernatur autem suscipit optio beatae.
+                        </div>
+                        <a href="#">Ir para a Ideia</a>
+                    </div>
+                </div>
+                <div class="idea">
+                    <img src="./assets/images/esporte.svg" alt="Imagem de exercícios">
+        
+                    <div class="content">
+                        <h3>Exercícios</h3>
+                        <p>Saúde</p>
+                        <div class="description">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Corrupti odio ab alias! Labore blanditiis sunt eum vero dolores voluptate debitis mollitia
+                            architecto tempora officia,
+                            ad aspernatur autem suscipit optio beatae.
+                        </div>
+                        <a href="#">Ir para a Ideia</a>
+                    </div>
+                </div>
+                <div class="idea">
+                    <img src="./assets/images/meditacao.svg" alt="Imagem de meditação">
+        
+                    <div class="content">
+                        <h3>Meditação</h3>
+                        <p>Mentalidade</p>
+                        <div class="description">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Corrupti odio ab alias! Labore blanditiis sunt eum vero dolores voluptate debitis mollitia
+                            architecto tempora officia,
+                            ad aspernatur autem suscipit optio beatae.
+                        </div>
+                        <a href="#">Ir para a Ideia</a>
+                    </div>
+                </div>
+                <div class="idea">
+                    <img src="./assets/images/karaoke.svg" alt="Imagem de karaoke">
+        
+                    <div class="content">
+                        <h3>Karaokê</h3>
+                        <p>Diversão em Família</p>
+                        <div class="description">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Corrupti odio ab alias! Labore blanditiis sunt eum vero dolores voluptate debitis mollitia
+                            architecto tempora officia,
+                            ad aspernatur autem suscipit optio beatae.
+                        </div>
+                        <a href="#">Ir para a Ideia</a>
+                    </div>
+                </div>
+            </section>
+        </main>
+        
+        <footer id="footer">
+            Com ❤ <a href="http://rocketseat.com.br" target="blank">Rockeseat</a>
+        </footer>
+
+    </div>
+
+    <div id="modal" class="hide">
+        <div class="content">
+            <h1>Nova Ideia</h1>
+            <form action="">
+
+                <div class="input-wrapper">
+                    <label for="title">Título da Ideia</label>
+                    <input type="text" name="title">
+                </div>
+
+                <div class="input-wrapper">
+                    <label for="category">Categoria</label>
+                    <input type="text" name="category">
+                </div>
+
+                <div class="input-wrapper">
+                    <label for="image">Link da Imagem</label>
+                    <input type="url" name="image">
+                </div>
+
+                <div class="input-wrapper">
+                    <label for="description">Digite uma descrição para essa ideia</label>
+                    <textarea name="description" cols="30" rows="10"></textarea>
+                </div>
+
+                <div class="input-wrapper">
+                    <label for="link">Link da ideia</label>
+                    <input type="url" name="link">
+                </div>
+                
+                <a href="#" onclick="onOff()">Voltar</a>
+                <button>Salvar</button>
+
+            </form>
+        </div>
+    </div>
+
+    <script src='./assets/js/script.js'></script>
+
+</body>
+</html>
