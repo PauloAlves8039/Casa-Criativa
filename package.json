@@ -1,0 +1,25 @@
+{
+  "name": "ws",
+  "version": "1.0.0",
+  "description": "<h1 align=\"center\">:office: App-Casa-Criativa</h1>",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PauloAlves8039/App-Casa-Criativa.git"
+  },
+  "keywords": [],
+  "author": "Paulo Alves",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PauloAlves8039/App-Casa-Criativa/issues"
+  },
+  "homepage": "https://github.com/PauloAlves8039/App-Casa-Criativa#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.2"
+  }
+}
