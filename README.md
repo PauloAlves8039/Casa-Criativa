@@ -18,8 +18,13 @@ Projeto teve código com base no tutotial
 - NodeJS
 - SQlite
 
-## :camera: Screenshots
+## :floppy_disk: Instalação
+Baixar repositório ```git clone https://github.com/PauloAlves8039/App-Casa-Criativa.git```
+- Abra a pasta ```App-Casa-Criativa``` no prompt de comando do Windows.
+- Execute ```npm install``` para instalar os módulos necessários do NodeJs.
+- Execute ```npm run dev``` para iniciar o servidor```localhost:3000```.
 
+## :camera: Screenshots
 ### Página principal
 ![index](https://github.com/PauloAlves8039/App-Casa-Criativa/blob/master/public/assets/images/index.png)
 
