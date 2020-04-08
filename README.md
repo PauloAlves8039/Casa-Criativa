@@ -7,7 +7,11 @@
 </p>
 
 ## :computer: Projeto
-Repositório de uma aplicação web para catalogar ideias durante o período de crise vivido em 2020.
+Repositório de uma aplicação web para catalogar ideias para usuários que estão em casa durante o período de crise vivido em 2020.
+
+A aplicação permite o cadastro de alguma ideia iterativa de qualquer tipo, utilizando um modal é possível adicionar o título, categoria,
+link de imagem, descrição e link da ideia em si.
+
 Projeto teve código com base no tutotial 
 [WorkshopDev Especial na semana OmniStack 11.0](https://www.youtube.com/watch?v=cprMYC8PCVY&list=PL85ITvJ7FLohGTWaE_p0J6B-TLmQbN4ka&index=2&t=0s).
 
