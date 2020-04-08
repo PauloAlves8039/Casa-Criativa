@@ -1,4 +1,6 @@
-<h1 align="center">:house: App-Casa-Criativa</h1>
+<p align="center">
+  <img src="https://github.com/PauloAlves8039/App-Casa-Criativa/blob/master/public/assets/images/logo-casa-criativa.png">
+</p>
 
 <p align="center">
   <a href="https://rocketseat.com.br/"><img src="https://img.shields.io/badge/developed%20by-Rocketseat-blueviolet"></a>
@@ -14,6 +16,18 @@ Projeto teve código com base no tutotial
 - CSS3
 - Javascript
 - NodeJS
+- SQlite
 
+## :camera: Screenshots
 
+### Página principal
+![index](https://github.com/PauloAlves8039/App-Casa-Criativa/blob/master/public/assets/images/index.png)
 
+### Modal para cadastro de novas ideias
+![modal](https://github.com/PauloAlves8039/App-Casa-Criativa/blob/master/public/assets/images/modal.png)
+
+### Página com a lista das ideias
+![ideias](https://github.com/PauloAlves8039/App-Casa-Criativa/blob/master/public/assets/images/ideias.png)
+
+## Author
+:computer: [Paulo Alves](https://github.com/PauloAlves8039)
